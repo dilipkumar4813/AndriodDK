@@ -11,16 +11,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 import app.num.numandroidpagecurleffect.PageCurlView;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import iamdilipkumar.com.andrioddk.R;
 
 public class FlipPageActivity extends AppCompatActivity {
+
+    @BindView(R.id.pagecurl_view)
+    PageCurlView pageCurlView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flip_page);
-
-        PageCurlView pageCurlView = (PageCurlView) findViewById(R.id.pagecurl_view);
+        ButterKnife.bind(this);
 
         List<Integer> pages_id = new ArrayList<>();
         pages_id.add(R.drawable.star_wars_3);
