@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Andriod DK</string>
+
+    <string name="nougat">Android Nougat</string>
+    <string name="marshmallow">Android Marshmallow</string>
+    <string name="kitkat">Android Kitkat</string>
+    <string name="jelly_bean">Android Jelly Bean</string>
+    <string name="oreo">Android Oreo</string>
+
 </resources>
