@@ -1,7 +1,9 @@
-package iamdilipkumar.com.andrioddk;
+package iamdilipkumar.com.andrioddk.ui.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import iamdilipkumar.com.andrioddk.R;
 
 public class FlipPageActivity extends AppCompatActivity {
 
