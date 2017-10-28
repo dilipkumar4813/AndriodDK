@@ -8,6 +8,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Display;
@@ -51,6 +52,10 @@ public class FlipWIthoutLibActivity extends AppCompatActivity {
         setContentView(R.layout.activity_flip_without_lib);
         ButterKnife.bind(this);
 
+        ActionBar supportActionBar = getSupportActionBar();
+        if(supportActionBar!=null){
+            supportActionBar.hide();
+        }
         setupUI();
     }
 
