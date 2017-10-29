@@ -20,6 +20,11 @@ public class OptionsActivity extends AppCompatActivity {
         startActivity(new Intent(this, FlipWIthoutLibActivity.class));
     }
 
+    @OnClick(R.id.btn_expand_collapse)
+    void onExpandCollapseClicked() {
+        startActivity(new Intent(this, ExpandCollapseActivity.class));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

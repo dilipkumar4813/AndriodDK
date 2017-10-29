@@ -30,6 +30,10 @@
         <activity
             android:name=".ui.activities.FlipWIthoutLibActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activities.ExpandCollapseActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -9,5 +9,7 @@
 
     <string name="flip_with_library">Flip with library</string>
     <string name="flip_without_library">Flip without library</string>
+    <string name="about_info">Fireworks Feature Tests</string>
+    <string name="expand_collapse">Expand/Collapse</string>
 
 </resources>
